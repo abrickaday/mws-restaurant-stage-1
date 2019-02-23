@@ -57,6 +57,9 @@ nav {
   height: 80px;
   background-color: #252831;
   text-align:center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 nav h1 {
   margin: auto;
@@ -115,6 +118,7 @@ nav h1 a {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .filter-options h2 {
   color: white;
@@ -144,6 +148,7 @@ nav h1 a {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 #restaurants-list li {
   background-color: #fff;
