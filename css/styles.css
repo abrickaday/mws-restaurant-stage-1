@@ -196,6 +196,10 @@ nav h1 a {
 }
 
 /* ====================== Restaurant Details ====================== */
+.inside #maincontent {
+  display: flex;
+  flex-wrap: wrap;
+}
 .inside header {
   /* position: fixed; */
   /* top: 0; */
@@ -255,8 +259,11 @@ nav h1 a {
 #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
-  padding: 140px 40px 30px;
+  /* padding: 140px 40px 30px; */
   width: 50%;
+}
+#restaurant-container {
+  padding: 30px 40px 80px;
 }
 #reviews-container {
   padding: 30px 40px 80px;
@@ -288,4 +295,10 @@ nav h1 a {
 }
 #restaurant-hours td {
   color: #666;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #restaurant-container, #reviews-container {
+    width: 100%;
+  }
 }
